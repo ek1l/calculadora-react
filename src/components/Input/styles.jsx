@@ -9,7 +9,7 @@ export const InputContainer = styled.div`
 
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
 
   font-size: 24px;
   font-family: Roboto;
@@ -20,7 +20,7 @@ export const InputContainer = styled.div`
     height: 75px;
     background-color: #935cb3dd;
     border: 0;
-    float: right;
+    float: left;
     clear: both;
     font-size: 24px;
     font-family: Roboto;

@@ -7,6 +7,19 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+
+  h1{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    transition: .4s;
+    cursor: default;
+  }
+  h1:hover{
+    color: #444444;
+  }
 `;
 
 export const Content = styled.div`
